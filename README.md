@@ -3,11 +3,11 @@
 - (中文-Chinese) 适用于 stata15 用户。可以一次性对当前工作路径以及所有子文件夹中的文件进行转码(unicode)，以保证中文字符可以正常显示。
 
 ## 安装 (install package)
-- 方法1: 下载 `ua.ado` 和 `ua.hlp`，放置于 `D:\stata15\ado\base\u` 或 `D:\stata15\ado\plus\u` 文件夹中。
+- 方法1: 下载 `uaall.ado` 和 `uall.hlp`，放置于 `D:\stata15\ado\base\u` 或 `D:\stata15\ado\plus\u` 文件夹中。
 - 方法2: 在 Stata 命令窗口中输入命令 `github install arlionn/uall, replace`
 
 ## 使用
-- 在 Stata 命令窗口中输入 `help ua`，查看命令介绍和 Stata 范例。参照范例使用即可。
+- 在 Stata 命令窗口中输入 `help uall`，查看命令介绍和 Stata 范例。参照范例使用即可。
 
 ## Examples
 ```stata
