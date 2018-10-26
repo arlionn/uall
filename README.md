@@ -2,14 +2,14 @@
 - unicode all files in current working directory (CWD) and files in all subdirectories of CWD recursively. For Stata users updated from version 13 to version 14 or higher.
 - (中文-Chinese) 适用于 stata15 用户。可以一次性对当前工作路径以及所有子文件夹中的文件进行转码(unicode)，以保证中文字符可以正常显示。
 
-#### 安装 (install package)
+## 安装 (install package)
 - 方法1: 下载 `ua.ado` 和 `ua.hlp`，放置于 `D:\stata15\ado\base\u` 或 `D:\stata15\ado\plus\u` 文件夹中。
 - 方法2: 在 Stata 命令窗口中输入命令 `github install arlionn/uall, replace`
 
-#### 使用
+## 使用
 - 在 Stata 命令窗口中输入 `help ua`，查看命令介绍和 Stata 范例。参照范例使用即可。
 
-#### Examples
+## Examples
 ```stata
   * Change current working directory (CWD), 待转换文件路径
     . cd D:\stata15\ado\personal\mypaper
@@ -25,24 +25,18 @@
 ```
 
                 
-### Author
+## Author
 
-Yujun,Lian (Arlion) Department of Finance, Lingnan College, Sun Yat-Sen University.    
-E-mail: arlionn@163.com.
-Blog: https://github.com/arlionn/  ||  http://www.jianshu.com/u/69a30474ef33
+- Yujun,Lian (Arlion) Department of Finance, Lingnan College, Sun Yat-Sen University.    
+- E-mail: arlionn@163.com.
+- Blog: https://github.com/arlionn/  ||  http://www.jianshu.com/u/69a30474ef33
+- 连玉君 ([知乎](https://zhuanlan.zhihu.com/arlion) | [简书](http://www.jianshu.com/u/69a30474ef33) | [码云](https://gitee.com/arlionn))    
 
 
-### Acknowledgements
+## Acknowledgements
 
 I would like to thank Dr. Hua Peng at StataCorp LP for helpful suggestions.      
 Codes from `rcd` by Nikos Askitas and Dan Blanchette have been incorporated.
-
-
-#### Author
-
-- Yujun,Lian (Arlion) Department of Finance, Lingnan College, Sun Yat-Sen University.
-- E-mail: arlionn@163.com.
-- 连玉君 ([知乎](https://zhuanlan.zhihu.com/arlion) | [简书](http://www.jianshu.com/u/69a30474ef33) | [码云](https://gitee.com/arlionn))    
 
   
 
